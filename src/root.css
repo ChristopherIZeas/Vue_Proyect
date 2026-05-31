@@ -1,0 +1,18 @@
+:root {
+    --hue-primary: 250;
+    --color-bg: hsl(var(--hue-primary), 40%, 8%);
+    --color-surface: hsl(var(--hue-primary), 30%, 12%);
+    --color-primary: hsl(var(--hue-primary), 80%, 65%);
+    --color-primary-hover: hsl(var(--hue-primary), 80%, 75%);
+    --color-text: hsl(0, 0%, 95%);
+    --color-text-muted: hsl(0, 0%, 70%);
+    --color-error: hsl(350, 80%, 65%);
+    --color-success: hsl(150, 80%, 45%);
+    --color-input-bg: hsla(0, 0%, 100%, 0.05);
+    --color-input-border: hsla(0, 0%, 100%, 0.1);
+    --color-input-focus: var(--color-primary);
+
+    --font-main: 'Inter', sans-serif;
+    --transition: 0.3s ease;
+    --radius: 12px;
+}
